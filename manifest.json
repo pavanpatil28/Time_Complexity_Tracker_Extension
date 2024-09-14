@@ -1,0 +1,16 @@
+{
+  "name": "Analyzr",
+  "description": "Analyze the time and space complexity of your code.",
+  "version": "0.0.1",
+  
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://www.geeksforgeeks.org/problems/*"
+      ],
+      "js": ["main.js"]
+    }
+  ]
+}
